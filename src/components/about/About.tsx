@@ -32,10 +32,18 @@ export default function Nav() {
           </p>
         </div>
         <div className="flex flex-row space-x-4">
-          <FontAwesomeIcon icon={faLinkedin} size="xl" />
-          <FontAwesomeIcon icon={faSquareGithub} size="xl" />
-          <FontAwesomeIcon icon={faSquareBehance} size="xl" />
-          <FontAwesomeIcon icon={faMedium} size="xl" />
+          <a href="https://github.com/InnocentAnyaele">
+            <FontAwesomeIcon icon={faSquareGithub} size="xl" />
+          </a>
+          <a href="https://www.linkedin.com/in/innocent-anyaele/">
+            <FontAwesomeIcon icon={faLinkedin} size="xl" />
+          </a>
+          <a href="https://www.behance.net/innocentanyaele">
+            <FontAwesomeIcon icon={faSquareBehance} size="xl" />
+          </a>
+          <a href="https://medium.com/@innocentanyaele">
+            <FontAwesomeIcon icon={faMedium} size="xl" />
+          </a>
         </div>
       </div>
       <Image
