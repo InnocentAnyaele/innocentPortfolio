@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Apps() {
   return (
-    <section className="flex flex-col p-10 space-y-10">
+    <div className="flex flex-col p-10 space-y-10">
       <span className="text-sm font-bold text-[#222438] bg-white text-center w-20 p-2">
         Apps
       </span>
@@ -35,6 +35,6 @@ export default function Apps() {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

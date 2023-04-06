@@ -1,9 +1,9 @@
 import Image from "next/image";
 import { designData } from "../../../public/siteInformation/design/DesignData";
 
-export default function Design() {
+export default function Designs() {
   return (
-    <section className="flex flex-col p-10 space-y-10">
+    <div className="flex flex-col p-10 space-y-10">
       <span className="text-sm font-bold text-[#222438] bg-white text-center w-20 p-2">
         Design
       </span>
@@ -34,6 +34,6 @@ export default function Design() {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }

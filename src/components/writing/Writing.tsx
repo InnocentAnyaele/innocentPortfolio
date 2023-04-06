@@ -2,7 +2,7 @@ import { writingData } from "../../../public/siteInformation/writing/WritingData
 
 export default function Writing() {
   return (
-    <section className="flex flex-col p-10">
+    <div className="flex flex-col p-10">
       <div className="text-[#222438] bg-white text-center w-20 h-7 justify-center">
         <span className="text-sm font-bold">Writing</span>
       </div>
@@ -25,6 +25,6 @@ export default function Writing() {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }
