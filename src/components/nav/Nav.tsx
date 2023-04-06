@@ -9,7 +9,9 @@ export default function Nav() {
       </div>
       <div>
         <button className="bg-white rounded-md h-auto p-2 my-5 md:my-0 lg:my-0">
-          <span className="text-[#222438] text-sm">Download CV</span>
+          <a href="https://drive.google.com/file/d/10iOOZURELtjoRC39w7yt2-rUgPv7PyeA/view">
+            <span className="text-[#222438] text-sm">Download CV</span>
+          </a>
         </button>
       </div>
     </nav>

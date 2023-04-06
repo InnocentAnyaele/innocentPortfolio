@@ -14,7 +14,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 export default function Nav() {
   return (
     <section className="flex flex-row flex-wrap items-center p-10 md:px-40 lg:px-40 md:justify-between lg:justify-between justify-center md:mt-10 lg:mt-10">
-      <div className="flex flex-col text-white md:w-2/5 lg:w-2/5 h-[420px] justify-between mb-10 md:mb-0 lg:mb-0">
+      <div className="flex flex-col text-white lg:w-2/5 h-[420px] justify-between mb-10 md:mb-0 lg:mb-0">
         <div>
           <p className="text-[28px]">Innocent Anyaele</p>
           <p className="text-[34px] font-bold">Software Engineer</p>
@@ -47,7 +47,7 @@ export default function Nav() {
         </div>
       </div>
       <Image
-        className="my-6 md:my-0 lg:my-0"
+        className="mt-10 md:my-0 lg:my-0"
         src={profileImg}
         alt="Profile Image"
         width={400}
