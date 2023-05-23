@@ -13,12 +13,14 @@ export default function Apps() {
             key={idx}
             className="flex flex-row flex-wrap md:flex-nowrap lg:flex-nowrap space-x-0 md:space-x-10 lg:space-x-10"
           >
-            <Image
-              className="mt-10 md:my-0 lg:my-0"
-              src={item.img}
-              alt="Profile Image"
-              width={600}
-            />
+            <div className="min-w-[600px]">
+              <Image
+                className="mt-10 md:my-0 lg:my-0"
+                src={item.img}
+                alt="Profile Image"
+                width={item.imgType === "Mobile" ? 300 : 600}
+              />
+            </div>
             <div className="flex flex-col text-white space-y-4 my-10 md:my-0 lg:my-0">
               <span className="text-sm text-[#222438] font-bold bg-white w-[200px] p-2 text-center">
                 {item.name}

@@ -38,11 +38,11 @@ export default function Nav() {
           <a href="https://www.linkedin.com/in/innocent-anyaele/">
             <FontAwesomeIcon icon={faLinkedin} size="xl" />
           </a>
-          <a href="https://www.behance.net/innocentanyaele">
-            <FontAwesomeIcon icon={faSquareBehance} size="xl" />
-          </a>
           <a href="https://medium.com/@innocentanyaele">
             <FontAwesomeIcon icon={faMedium} size="xl" />
+          </a>
+          <a href="https://www.behance.net/innocentanyaele">
+            <FontAwesomeIcon icon={faSquareBehance} size="xl" />
           </a>
         </div>
       </div>

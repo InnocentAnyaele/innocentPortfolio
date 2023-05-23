@@ -7,6 +7,7 @@ import KwesiChatbot from './KwesiChatbot.png'
 import SkramBull from './Skrambull.png'
 import GoPoll from './GoPoll.png'
 import DataLinkSRC from './DataLinkSRC.png'
+import ApexChat from './apexChat.png'
 
 interface appsDataInterface {
     name: String,
@@ -15,16 +16,27 @@ interface appsDataInterface {
     appLink: String,
     githubLink: String,
     img: any,
+    imgType: String,
 }
 
 const appsData:appsDataInterface[] = [
+    {
+        name: 'ApexChat',
+        description: "An Instagram ChatBot built with OpenAI's ChatGPT LLM to handle client queries about a Dummy Business.",
+        technology: 'Flask, Redis, PineCone, LangChain, OpenAi, ChromaDB',
+        appLink: 'https://www.instagram.com/apex_chat/',
+        githubLink: 'https://github.com/InnocentAnyaele/doc-chat-server',
+        img: ApexChat,
+        imgType: 'Mobile',
+    },
     {
         name: 'GPTContext',
         description: "An interface built in React and Flask that allows users to upload document and have conversations with ChatGPT's AI within the document context",
         technology: 'ReactJS, Flask',
         appLink: 'https://gpt-context.netlify.app/',
         githubLink: 'https://github.com/InnocentAnyaele/GPTContext-',
-        img: GPTContext
+        img: GPTContext,
+        imgType: 'PC',
     },
     {
         name: 'Calvary Worship Center',
@@ -32,7 +44,8 @@ const appsData:appsDataInterface[] = [
         technology: 'NextJS, ReactJS, Firebase',
         appLink: 'https://master.djiikbspe5jg1.amplifyapp.com/',
         githubLink: 'https://github.com/InnocentAnyaele/worship-center',
-        img: CalvaryWorshipCenter
+        img: CalvaryWorshipCenter,
+        imgType: 'PC',
     },
     {
         name: 'The Garrison',
@@ -40,7 +53,8 @@ const appsData:appsDataInterface[] = [
         technology: 'ReactJs',
         appLink: 'https://garrisonpub.netlify.app/',
         githubLink: 'https://github.com/InnocentAnyaele/garrison',
-        img: Garrison
+        img: Garrison,
+        imgType: 'PC',
     },
     {
         name: 'Maame',
@@ -48,7 +62,8 @@ const appsData:appsDataInterface[] = [
         technology: 'HTML, CSS, Javascript',
         appLink: 'https://chatbot.snwolley.com/',
         githubLink: 'https://github.com/InnocentAnyaele/Chatbot-Private-N-',
-        img: Maame
+        img: Maame,
+        imgType: 'PC',
     },
     {
         name: 'DataLink Request Forms',
@@ -56,7 +71,8 @@ const appsData:appsDataInterface[] = [
         technology: 'ReactJS, MongoDB',
         appLink: 'https://datalink-request-form.herokuapp.com/',
         githubLink: 'https://github.com/InnocentAnyaele/datalink-request-form',
-        img: DataLinkRequestForms
+        img: DataLinkRequestForms,
+        imgType: 'PC',
     },
     {
         name: 'Kwesi Chatbot',
@@ -64,7 +80,8 @@ const appsData:appsDataInterface[] = [
         technology: 'HTML, CSS, JavaScript',
         appLink: 'http://innocentanyaele.github.io/chatbot/',
         githubLink: 'https://github.com/InnocentAnyaele/chatbot',
-        img: KwesiChatbot
+        img: KwesiChatbot,
+        imgType: 'PC',
     },
     {
         name: 'Skrambull',
@@ -72,7 +89,8 @@ const appsData:appsDataInterface[] = [
         technology: 'HTML, CSS, Javascript',
         appLink: 'https://innocentanyaele.github.io/skrambull/',
         githubLink: 'https://github.com/InnocentAnyaele/skrambull',
-        img: SkramBull
+        img: SkramBull,
+        imgType: 'PC',
     },
     {
         name: 'GPTContext',
@@ -80,7 +98,8 @@ const appsData:appsDataInterface[] = [
         technology: 'React, Flask',
         appLink: 'https://gpt-context.netlify.app/',
         githubLink: 'https://github.com/InnocentAnyaele/GPTContext-',
-        img: GPTContext
+        img: GPTContext,
+        imgType: 'PC',
     },
     {
         name: 'GoPoll',
@@ -88,7 +107,8 @@ const appsData:appsDataInterface[] = [
         technology: 'ReactJS, Typescript, Django, PostgreSQL',
         appLink: 'https://gopoll.herokuapp.com/',
         githubLink: 'https://github.com/InnocentAnyaele/goPollClient',
-        img: GoPoll
+        img: GoPoll,
+        imgType: 'PC',
     },
     {
         name: 'DataLink SRC',
@@ -96,7 +116,8 @@ const appsData:appsDataInterface[] = [
         technology: 'ReactJS, MongoDB',
         appLink: 'https://src-dlibt.herokuapp.com/',
         githubLink: 'https://github.com/InnocentAnyaele/src_dlibt',
-        img: DataLinkSRC
+        img: DataLinkSRC,
+        imgType: 'PC',
     },
 ]
 
