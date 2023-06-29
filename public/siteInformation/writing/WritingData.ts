@@ -32,6 +32,11 @@ link: 'https://innocentanyaele.medium.com/create-a-drag-and-drop-file-component-
 link: 'https://medium.com/@innocentanyaele/find-duplicates-in-an-array-geeksforgeeks-practice-question-c58fd2c7bf8e'
     },
     // {
+    {
+        title: 'Setup Meta Webhooks for Instagram Messaging and respond to message.',
+        subTitle: '3 MIN READ',
+        link: 'https://medium.com/@innocentanyaele/setup-meta-webhooks-for-instagram-messaging-and-respond-to-message-4575bc95c7a2'
+    },
     //     title: 'Fake news classifier',
     //     subTitle: 'Python',
     // link: 'https://github.com/InnocentAnyaele/fake_news_classifier/blob/main/Untitled.ipynb'
@@ -61,7 +66,6 @@ link: 'https://medium.com/@innocentanyaele/find-duplicates-in-an-array-geeksforg
         subTitle: 'Python',
     link: 'https://github.com/InnocentAnyaele/Breast-Cancer-Prediction-Model/blob/master/breast_cancer.ipynb'
         },
-
 ]
 
 export {writingData}
