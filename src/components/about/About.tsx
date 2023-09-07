@@ -21,14 +21,11 @@ export default function Nav() {
         </div>
         <div className="flex flex-col my-5 md:my-0 lg:my-0 space-y-5 md:space-y-4 lg:space-y-4">
           <p>
-            I’m a software engineer with enough years experience developing web
-            and mobile applications. When I’m not developing I enjoy writing,
-            designing and learning new stuff.
+            Experienced in web & mobile development. When I’m not developing I enjoy writing and learning new stuff.
           </p>
-          <p>My stack includes</p>
+          {/* <p>My stack includes</p> */}
           <p>
-            ReactJS. NextJS. Express. Flask. Django. SQL. MongoDB and many other
-            dev tools.
+            ReactJS. NextJS. Express. Flask. Django. Flutter. Postgresql. MongoDB. 
           </p>
         </div>
         <div className="flex flex-row space-x-4">
