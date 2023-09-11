@@ -1,5 +1,7 @@
 "use client";
 
+import { cv_url } from "../utils/Strings";
+
 export default function Nav() {
   function handleClick(event: any) {
     event.preventDefault();
@@ -33,7 +35,7 @@ export default function Nav() {
       <div>
         <div className="my-5">
           <a
-            href="https://drive.google.com/file/d/10iOOZURELtjoRC39w7yt2-rUgPv7PyeA/view"
+            href={`${cv_url}`}
             className="bg-white rounded-md h-auto p-2"
           >
             <span className="text-[#222438] text-sm">Download CV</span>
