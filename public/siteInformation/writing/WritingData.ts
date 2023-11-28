@@ -7,6 +7,12 @@ interface writingInterface {
 const writingData: writingInterface[] = [
   {
     title:
+      "Using Redis as vector storage to connect a Website to OpenAI — From Building the index to Querying the index",
+    subTitle: "5 MIN READ",
+    link: "https://medium.com/@innocentanyaele/using-redis-as-vector-storage-to-connect-a-website-to-openai-from-building-the-index-to-querying-ad608fd11598",
+  },
+  {
+    title:
       "Building a CI/CD Pipeline with Flask, Docker, GitHub Actions, AWS ECR and AWS ECS",
     subTitle: "9 MIN READ",
     link: "https://medium.com/@innocentanyaele/building-a-ci-cd-pipeline-with-flask-docker-github-actions-aws-ecr-and-aws-ecs-51ff2f69ff4c",

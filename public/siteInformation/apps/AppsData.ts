@@ -8,6 +8,7 @@ import SkramBull from './Skrambull.png'
 import GoPoll from './GoPoll.png'
 import DataLinkSRC from './DataLinkSRC.png'
 import ApexChat from './apexChat.png'
+import FormChat from './FormChat.png'
 
 interface appsDataInterface {
     name: String,
@@ -36,6 +37,15 @@ const appsData:appsDataInterface[] = [
         appLink: 'https://gpt-context.netlify.app/',
         githubLink: 'https://github.com/InnocentAnyaele/GPTContext-',
         img: GPTContext,
+        imgType: 'PC',
+    },
+    {
+        name: 'Form Chat',
+        description: "An AI conversational bot for a restuarant designed to process orders by providing forms in the conversation.",
+        technology: 'NextJS, Flask',
+        appLink: 'https://form-chat-lovat.vercel.app/',
+        githubLink: 'https://github.com/InnocentAnyaele/form-chat',
+        img: FormChat,
         imgType: 'PC',
     },
     {
