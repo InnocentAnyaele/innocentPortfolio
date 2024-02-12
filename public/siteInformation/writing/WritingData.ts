@@ -5,6 +5,12 @@ interface writingInterface {
 }
 
 const writingData: writingInterface[] = [
+    {
+    title:
+      "Querying Gemini with Langchain’s RunnableMap, LLM chain and Gemini API using DocArrayInMemorySearch as a store and retriever.",
+    subTitle: "5 MIN READ",
+    link: "https://medium.com/devops-dev/querying-gemini-with-langchains-runnablemap-llm-chain-and-gemini-api-using-docarrayinmemorysearch-4ce35d88bfdc",
+  },
   {
     title:
       "Using Redis as vector storage to connect a Website to OpenAI — From Building the index to Querying the index",
