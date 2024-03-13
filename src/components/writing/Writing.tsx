@@ -6,21 +6,21 @@ export default function Writing() {
       <div className="text-[#222438] bg-white text-center w-20 h-7 justify-center">
         <span className="text-sm font-bold">Writing</span>
       </div>
-      <div className="flex flex-row overflow-x-auto my-10">
+      <div className="flex flex-row overflow-x-auto h-70 w-full pt-5 items-start">
         {writingData.map((item, idx) => (
           <div
             key={idx}
-            className="flex flex-col justify-between space-y-5 border-r px-5"
+            className="flex flex-col justify-between border-r px-5 min-w-[300px]"
           >
             <a href={`${item.link}`}>
-              <p className="text-white hover:underline font-bold">
-                {item.title}
+              <p className="text-sm text-[#cccccc] hover:underline h-[50px]">
+                {item.subTitle.toLowerCase()}
               </p>
             </a>
             <a href={`${item.link}`}>
-              <p className="text-sm text-[#cccccc] hover:underline">
-                {item.subTitle}
-              </p>
+              <span className="text-white hover:underline pt-2">
+                {item.title}
+              </span>
             </a>
           </div>
         ))}
